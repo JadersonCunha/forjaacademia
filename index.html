@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>FORJA Academia | Treine perto de casa. 7 dias grátis.</title>
+  <meta name="description" content="Academia com equipamentos de ponta, professores no salão e 40+ aulas por semana. Peça sua semana grátis e comece hoje." />
+  <meta name="theme-color" content="#0b0b0c" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%230b0b0c'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-family='Anton,sans-serif' font-size='36' fill='%23e8ff00'%3EF%3C/text%3E%3C/svg%3E" />
+
+  <script>document.documentElement.classList.add('js');</script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=JetBrains+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="progress" aria-hidden="true"><span></span></div>
+  <header class="header" id="header">
+    <div class="topbar">
+      <div class="container topbar__inner">
+        <a href="tel:+5551999990000" class="topbar__item">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>
+          (51) 99999-0000
+        </a>
+        <p class="topbar__promo"><i></i> Matrícula R$0 até sexta · <strong>poucas vagas</strong></p>
+        <a href="#contato" class="topbar__item topbar__addr">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+          Rua dos Andradas · Porto Alegre
+        </a>
+      </div>
+    </div>
+
+    <div class="nav">
+      <div class="container nav__inner">
+        <a href="#topo" class="logo" aria-label="FORJA Academia, início">
+          <span class="logo__mark"></span>FORJA<small>Academia</small>
+        </a>
+
+        <nav class="nav__links" aria-label="Principal">
+          <a href="#diferenciais">Diferenciais</a>
+          <a href="#aulas">Aulas</a>
+          <a href="#metodo">Método</a>
+          <a href="#planos">Planos</a>
+          <a href="#faq">FAQ</a>
+        </nav>
+
+        <a href="#contato" class="btn btn--sm nav__cta" data-magnetic>
+          <span>Treino grátis</span>
+        </a>
+
+        <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+
+  <div class="menu" id="menu" aria-hidden="true">
+    <nav class="menu__nav" aria-label="Menu mobile">
+      <a href="#diferenciais"><em>01</em>Diferenciais</a>
+      <a href="#aulas"><em>02</em>Aulas</a>
+      <a href="#metodo"><em>03</em>Método</a>
+      <a href="#planos"><em>04</em>Planos</a>
+      <a href="#faq"><em>05</em>FAQ</a>
+    </nav>
+    <div class="menu__foot">
+      <a href="#contato" class="btn btn--block">
+        <span>Quero 7 dias grátis</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+      <p>Seg–Sex 5h–00h · Sáb 7h–20h · Dom 8h–14h</p>
+    </div>
+  </div>
+
+  <main id="topo">
+    <section class="hero" aria-label="Apresentação">
+      <div class="hero__media">
+        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=2000&q=75" alt="Fileira de halteres de uma academia em ambiente escuro" data-parallax="0.1" fetchpriority="high" />
+      </div>
+      <div class="hero__shade"></div>
+
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="tag" data-hero-fade style="--d:.1s"><i></i> Matrículas abertas · Unidade Centro</p>
+
+          <h1 class="hero__title" aria-label="Pare de adiar. Comece pesado.">
+            <span class="line"><span style="--d:.2s">Pare de</span></span>
+            <span class="line"><span style="--d:.3s">adiar.</span></span>
+            <span class="line line--accent"><span style="--d:.45s">Comece pesado.</span></span>
+          </h1>
+
+          <p class="hero__lead" data-hero-fade style="--d:.7s">
+            A 5 minutos de casa, com professores que sabem o seu nome, equipamentos que não te deixam na mão e um ambiente que te puxa pra frente. Sua primeira semana é por nossa conta.
+          </p>
+
+          <div class="hero__ctas" data-hero-fade style="--d:.85s">
+            <a href="#contato" class="btn btn--lg" data-magnetic>
+              <span>Quero 7 dias grátis</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a href="#planos" class="btn btn--ghost btn--lg"><span>Ver planos</span></a>
+          </div>
+        </div>
+
+        <a href="#contato" class="badge" aria-label="Garantir 7 dias grátis" data-hero-fade style="--d:1.1s">
+          <svg viewBox="0 0 200 200" class="badge__ring" aria-hidden="true">
+            <defs><path id="circ" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/></defs>
+            <text><textPath href="#circ" textLength="480" lengthAdjust="spacing">7 DIAS GRÁTIS • SEM TAXA DE MATRÍCULA • </textPath></text>
+          </svg>
+          <span class="badge__core"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+        </a>
+      </div>
+
+      <div class="container">
+        <ul class="hero__stats" data-hero-fade style="--d:1.2s">
+          <li><strong data-count="1500" data-prefix="+">0</strong><span>alunos ativos</span></li>
+          <li><strong data-count="40" data-prefix="+">0</strong><span>aulas por semana</span></li>
+          <li><strong>5h–00h</strong><span>de segunda a sexta</span></li>
+          <li><strong data-count="4.9" data-decimals="1">0</strong><span>nota no Google</span></li>
+        </ul>
+      </div>
+
+      <div class="scroll-cue" aria-hidden="true"><span></span>Role</div>
+    </section>
+
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Força</span><span>Constância</span><span>Comunidade</span><span>Disciplina</span><span>Resultado</span><span>Sem desculpa</span>
+        <span>Força</span><span>Constância</span><span>Comunidade</span><span>Disciplina</span><span>Resultado</span><span>Sem desculpa</span>
+      </div>
+    </div>
+
+
+    <section class="manifesto section" id="sobre">
+      <div class="container manifesto__grid">
+        <div class="manifesto__text">
+          <p class="eyebrow" data-reveal>Por que a FORJA</p>
+          <p class="scrub" id="scrub">
+            Academia boa não é a mais cara, nem a que tem mais máquina. É a que você <em>sente vontade de voltar amanhã.</em> Aqui, ninguém treina sozinho, ninguém fica perdido e ninguém some em março.
+          </p>
+          <a href="#aulas" class="link-arrow" data-reveal>Conheça as aulas
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+
+        <div class="manifesto__media">
+          <figure class="media media--tall img-reveal">
+            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1200&q=75" alt="Aluno treinando com barra em academia" loading="lazy" data-parallax="0.06" />
+          </figure>
+          <figure class="media media--small img-reveal" style="--rd:.2s">
+            <img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=800&q=75" alt="Treino funcional com corda naval" loading="lazy" data-parallax="0.1" />
+          </figure>
+          <div class="note" data-reveal>
+            <strong>1 professor</strong>
+            para cada 25 alunos no salão, em todos os horários.
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="diff section" id="diferenciais">
+      <div class="container diff__grid">
+        <div class="diff__media">
+          <figure class="media media--cover img-reveal">
+            <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1200&q=75" alt="Atleta em treino de força com iluminação dramática" loading="lazy" data-parallax="0.07" />
+            <figcaption class="media__cap"><span>Zona de força livre</span> 480 m² de pegada pesada</figcaption>
+          </figure>
+        </div>
+
+        <div class="diff__content">
+          <p class="eyebrow" data-reveal>Diferenciais</p>
+          <h2 class="h2" data-reveal>Tudo que você precisa.<br /><span class="muted">Nada que te atrapalhe.</span></h2>
+
+          <ul class="feats" data-stagger>
+            <li class="feat">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 6.5v11M17.5 6.5v11M3 9v6M21 9v6M6.5 12h11"/></svg>
+              <h3>Equipamentos importados</h3>
+              <p>Máquinas biomecânicas com manutenção semanal. Nada quebrado, nada de fila.</p>
+            </li>
+            <li class="feat">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.5"/><path d="M5 20c0-3.5 3-6 7-6s7 2.5 7 6"/></svg>
+              <h3>Professores no piso</h3>
+              <p>Correção de execução na hora, sem custo extra. Você treina certo desde o dia 1.</p>
+            </li>
+            <li class="feat">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+              <h3>Das 5h à meia-noite</h3>
+              <p>Antes do trabalho, no almoço ou depois do jantar. Seu horário, sua regra.</p>
+            </li>
+            <li class="feat">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg>
+              <h3>40+ aulas coletivas</h3>
+              <p>Funcional, spinning, yoga, boxe e mais. Já incluídas no seu plano.</p>
+            </li>
+            <li class="feat">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c1 4 5 5.5 5 10a5 5 0 0 1-10 0c0-2 1-3 2-4 .3 1.5 1 2 2 2 0-3-.5-5 1-8z"/></svg>
+              <h3>Sauna e vestiários</h3>
+              <p>Chuveiro quente, armário com chave e sauna seca para fechar o treino.</p>
+            </li>
+            <li class="feat">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-8-4.8-8-10.5A4.5 4.5 0 0 1 12 7a4.5 4.5 0 0 1 8 2.5C20 15.2 12 20 12 20z"/><path d="M7 12h3l1.5-2.5 2 4 1.5-1.5h2"/></svg>
+              <h3>Avaliação física inclusa</h3>
+              <p>Bioimpedância e metas claras antes de você pegar o primeiro peso.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="classes section" id="aulas">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow" data-reveal>Modalidades</p>
+            <h2 class="h2" data-reveal>Escolha sua<br /><span class="accent">briga.</span></h2>
+          </div>
+          <p class="section-head__p" data-reveal>Treine pesado, suado ou leve. Todas as aulas estão incluídas nos planos Pro e Black, e você pode testar qualquer uma na semana grátis.</p>
+        </div>
+
+        <div class="panels" id="panels">
+          <article class="panel is-active" tabindex="0">
+            <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=1000&q=70" alt="Área de musculação" loading="lazy" />
+            <div class="panel__shade"></div>
+            <span class="panel__n">01</span>
+            <div class="panel__body">
+              <h3>Musculação</h3>
+              <div class="panel__more">
+                <p>Treino de força com acompanhamento. Do iniciante ao avançado, com ficha montada para o seu objetivo.</p>
+                <span class="chips"><i>Hipertrofia</i><i>Emagrecimento</i><i>Reabilitação</i></span>
+                <a href="#contato" class="link-arrow">Testar grátis <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="panel" tabindex="0">
+            <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=1000&q=70" alt="Treino funcional" loading="lazy" />
+            <div class="panel__shade"></div>
+            <span class="panel__n">02</span>
+            <div class="panel__body">
+              <h3>Funcional</h3>
+              <div class="panel__more">
+                <p>45 minutos de circuito intenso. Queima calorias, ganha condicionamento e te tira da zona de conforto.</p>
+                <span class="chips"><i>45 min</i><i>Alta intensidade</i><i>Em grupo</i></span>
+                <a href="#contato" class="link-arrow">Testar grátis <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="panel" tabindex="0">
+            <img src="https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?auto=format&fit=crop&w=1000&q=70" alt="Aula de boxe" loading="lazy" />
+            <div class="panel__shade"></div>
+            <span class="panel__n">03</span>
+            <div class="panel__body">
+              <h3>Boxe</h3>
+              <div class="panel__more">
+                <p>Técnica, cardio e descarga de estresse. Não precisa saber lutar, só precisa querer suar.</p>
+                <span class="chips"><i>Todos os níveis</i><i>Luvas inclusas</i></span>
+                <a href="#contato" class="link-arrow">Testar grátis <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="panel" tabindex="0">
+            <img src="https://images.unsplash.com/photo-1534258936925-c58bed479fcb?auto=format&fit=crop&w=1000&q=70" alt="Aula de spinning" loading="lazy" />
+            <div class="panel__shade"></div>
+            <span class="panel__n">04</span>
+            <div class="panel__body">
+              <h3>Spinning</h3>
+              <div class="panel__more">
+                <p>Sala escura, som alto e pedalada no ritmo. Até 600 kcal em 50 minutos.</p>
+                <span class="chips"><i>50 min</i><i>Playlist ao vivo</i></span>
+                <a href="#contato" class="link-arrow">Testar grátis <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="panel" tabindex="0">
+            <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=1000&q=70" alt="Aula de yoga" loading="lazy" />
+            <div class="panel__shade"></div>
+            <span class="panel__n">05</span>
+            <div class="panel__body">
+              <h3>Yoga</h3>
+              <div class="panel__more">
+                <p>Mobilidade, respiração e foco. O contrapeso perfeito para a semana de treino pesado.</p>
+                <span class="chips"><i>Mobilidade</i><i>Recuperação</i></span>
+                <a href="#contato" class="link-arrow">Testar grátis <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="method section" id="metodo">
+      <div class="container method__grid">
+        <div class="method__side">
+          <p class="eyebrow" data-reveal>O método FORJA</p>
+          <h2 class="h2" data-reveal>Do zero ao<br /><span class="accent">hábito</span> em<br />4 passos.</h2>
+          <figure class="media media--wide img-reveal">
+            <img src="https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?auto=format&fit=crop&w=1200&q=70" alt="Aluna treinando com acompanhamento" loading="lazy" data-parallax="0.06" />
+          </figure>
+        </div>
+
+        <ol class="steps">
+          <li class="step">
+            <span class="step__n">01</span>
+            <div>
+              <h3>Aula experimental grátis</h3>
+              <p>Você vem, treina 7 dias e conhece a casa sem pagar nada. Se não gostar, vai embora sem burocracia.</p>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step__n">02</span>
+            <div>
+              <h3>Avaliação em 15 minutos</h3>
+              <p>Peso, gordura, postura e histórico. Definimos juntos o que você quer e em quanto tempo é realista chegar.</p>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step__n">03</span>
+            <div>
+              <h3>Plano montado para sua rotina</h3>
+              <p>3, 4 ou 5 dias por semana, com treino de 45 a 60 minutos. Encaixamos na sua agenda, não o contrário.</p>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step__n">04</span>
+            <div>
+              <h3>Acompanhamento a cada 30 dias</h3>
+              <p>Reavaliação, ajuste de carga e meta nova. É aqui que a maioria das academias some, e onde a gente aparece.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+
+    <section class="results section" id="resultados">
+      <div class="container">
+        <div class="stats">
+          <div class="stat"><strong data-count="1500" data-prefix="+">0</strong><span>alunos treinando hoje</span></div>
+          <div class="stat"><strong data-count="92" data-suffix="%">0</strong><span>continuam após 6 meses</span></div>
+          <div class="stat"><strong data-count="860" data-prefix="+">0</strong><span>avaliações no Google</span></div>
+          <div class="stat"><strong data-count="4.9" data-decimals="1">0</strong><span>nota média</span></div>
+        </div>
+
+        <div class="section-head section-head--tight">
+          <h2 class="h2" data-reveal>Quem treina,<br /><span class="muted">conta.</span></h2>
+          <div class="arrows">
+            <button class="arrow-btn" id="prevQuote" aria-label="Depoimento anterior"><svg viewBox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></button>
+            <button class="arrow-btn" id="nextQuote" aria-label="Próximo depoimento"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="quotes" id="quotes" tabindex="0" aria-label="Depoimentos de alunos">
+        <blockquote class="quote">
+          <span class="quote__res">−14 kg<small>em 5 meses</small></span>
+          <p>“Já tinha pagado academia e abandonado três vezes. Aqui o professor me chamou pelo nome no segundo dia. Não consegui mais sumir.”</p>
+          <footer><strong>Carla M.</strong> · Aluna há 1 ano</footer>
+        </blockquote>
+        <blockquote class="quote">
+          <span class="quote__res">+6 kg<small>de massa magra</small></span>
+          <p>“Treino às 6h antes do trabalho. Sem fila de aparelho, sem enrolação. Em 4 meses meu corpo mudou mais que em 2 anos por conta própria.”</p>
+          <footer><strong>Rafael T.</strong> · Aluno há 8 meses</footer>
+        </blockquote>
+        <blockquote class="quote">
+          <span class="quote__res">Dor zero<small>nas costas</small></span>
+          <p>“Cheguei com 52 anos e muito medo. A avaliação foi cuidadosa e o treino, respeitoso. Hoje faço funcional e yoga na mesma semana.”</p>
+          <footer><strong>Marta S.</strong> · Aluna há 10 meses</footer>
+        </blockquote>
+        <blockquote class="quote">
+          <span class="quote__res">5x/sem<small>sem faltar</small></span>
+          <p>“A turma do funcional virou meu grupo de amigos. Se eu não apareço, alguém manda mensagem. Isso muda tudo.”</p>
+          <footer><strong>Diego L.</strong> · Aluno há 1 ano e 3 meses</footer>
+        </blockquote>
+      </div>
+    </section>
+
+
+    <section class="plans section" id="planos">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow" data-reveal>Planos</p>
+            <h2 class="h2" data-reveal>Sem pegadinha.<br /><span class="accent">Sem fidelidade.</span></h2>
+          </div>
+          <p class="section-head__p" data-reveal>Matrícula R$0 até sexta. Cancele quando quiser, sem multa e sem ligação de retenção.</p>
+        </div>
+
+        <div class="plans__grid" data-stagger>
+          <article class="plan">
+            <h3>Start</h3>
+            <p class="plan__for">Para quem quer começar a se mexer.</p>
+            <p class="price"><small>R$</small>89<sup>,90</sup><span>/mês</span></p>
+            <ul>
+              <li>Musculação livre</li>
+              <li>Avaliação física inicial</li>
+              <li>Das 6h às 17h (dias úteis)</li>
+              <li>Vestiário com armário</li>
+            </ul>
+            <button class="btn btn--ghost btn--block" data-plan="Start"><span>Quero o Start</span></button>
+          </article>
+
+          <article class="plan plan--hot">
+            <span class="plan__flag">Mais escolhido</span>
+            <h3>Pro</h3>
+            <p class="plan__for">O equilíbrio perfeito entre força e variedade.</p>
+            <p class="price"><small>R$</small>119<sup>,90</sup><span>/mês</span></p>
+            <ul>
+              <li>Musculação + todas as aulas</li>
+              <li>Horário livre, 5h à 00h</li>
+              <li>Reavaliação mensal</li>
+              <li>Sauna seca</li>
+              <li>1 convidado por mês</li>
+            </ul>
+            <button class="btn btn--block" data-plan="Pro"><span>Quero o Pro</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+          </article>
+
+          <article class="plan">
+            <h3>Black</h3>
+            <p class="plan__for">Para quem quer resultado com acompanhamento de perto.</p>
+            <p class="price"><small>R$</small>159<sup>,90</sup><span>/mês</span></p>
+            <ul>
+              <li>Tudo do plano Pro</li>
+              <li>2 sessões de personal por mês</li>
+              <li>Plano de treino individual</li>
+              <li>Acesso a sábados e domingos</li>
+              <li>Toalha e kit de higiene</li>
+            </ul>
+            <button class="btn btn--ghost btn--block" data-plan="Black"><span>Quero o Black</span></button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="contact section" id="contato">
+      <div class="container contact__grid">
+        <div class="contact__info">
+          <p class="eyebrow" data-reveal>Sua semana grátis</p>
+          <h2 class="h2" data-reveal>Reserve agora.<br /><span class="accent">A gente cuida do resto.</span></h2>
+          <p class="contact__lead" data-reveal>Deixe seus dados e um professor chama você no WhatsApp em até 30 minutos para marcar o melhor horário.</p>
+
+          <div class="vagas" data-reveal>
+            <p><strong>Restam 9 vagas</strong> de aula experimental esta semana</p>
+            <div class="vagas__bar"><span></span></div>
+          </div>
+
+          <dl class="info">
+            <div><dt>Endereço</dt><dd>Rua dos Andradas · Porto Alegre<br /><a href="https://maps.google.com/?q=Rua+dos+Andradas+Porto+Alegre" target="_blank" rel="noopener">Abrir no mapa ↗</a></dd></div>
+            <div><dt>Horários</dt><dd>Seg–Sex 5h–00h<br />Sáb 7h–20h · Dom 8h–14h</dd></div>
+            <div><dt>WhatsApp</dt><dd><a href="https://wa.me/5551999990000" target="_blank" rel="noopener">(51) 99999-0000</a></dd></div>
+          </dl>
+        </div>
+
+        <form class="form" id="leadForm" novalidate>
+          <h3>Quero minha semana grátis</h3>
+
+          <label class="field">
+            <span>Seu nome</span>
+            <input type="text" name="nome" placeholder="Como podemos te chamar?" autocomplete="name" required />
+            <em class="error">Informe seu nome</em>
+          </label>
+
+          <label class="field">
+            <span>WhatsApp</span>
+            <input type="tel" name="whats" placeholder="(51) 90000-0000" autocomplete="tel" inputmode="tel" required />
+            <em class="error">Informe um WhatsApp válido com DDD</em>
+          </label>
+
+          <div class="field-row">
+            <label class="field">
+              <span>Seu objetivo</span>
+              <select name="objetivo">
+                <option>Emagrecer</option>
+                <option>Ganhar massa</option>
+                <option>Condicionamento</option>
+                <option>Saúde e qualidade de vida</option>
+                <option>Ainda não sei</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>Plano de interesse</span>
+              <select name="plano" id="planSelect">
+                <option>Pro</option>
+                <option>Start</option>
+                <option>Black</option>
+              </select>
+            </label>
+          </div>
+
+          <button type="submit" class="btn btn--lg btn--block" data-magnetic>
+            <span>Garantir minha vaga agora</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </button>
+          <p class="form__note">Sem compromisso e sem cartão de crédito. Seus dados são usados só para este contato.</p>
+        </form>
+      </div>
+    </section>
+
+
+    <section class="faq section" id="faq">
+      <div class="container faq__grid">
+        <div>
+          <p class="eyebrow" data-reveal>Dúvidas</p>
+          <h2 class="h2" data-reveal>Perguntas<br /><span class="muted">diretas.</span></h2>
+        </div>
+
+        <div class="faq__list">
+          <div class="qa">
+            <button class="qa__q" aria-expanded="false"><span>A semana grátis é grátis mesmo?</span><i></i></button>
+            <div class="qa__a"><div><p>É. Sem cartão, sem taxa escondida e sem obrigação de matrícula. Você treina 7 dias com acesso às aulas e à musculação. Se gostar, escolhe um plano. Se não, agradecemos a visita.</p></div></div>
+          </div>
+          <div class="qa">
+            <button class="qa__q" aria-expanded="false"><span>Nunca treinei. Vou me sentir perdido?</span><i></i></button>
+            <div class="qa__a"><div><p>Não. Mais da metade dos nossos alunos começou do zero. Na avaliação, você recebe um treino simples e um professor acompanha sua execução nas primeiras semanas.</p></div></div>
+          </div>
+          <div class="qa">
+            <button class="qa__q" aria-expanded="false"><span>Existe fidelidade ou multa de cancelamento?</span><i></i></button>
+            <div class="qa__a"><div><p>Nenhuma. Os planos são mensais, e você cancela direto pelo WhatsApp ou na recepção, sem multa nem ligação de retenção.</p></div></div>
+          </div>
+          <div class="qa">
+            <button class="qa__q" aria-expanded="false"><span>Qual o melhor horário para fugir da lotação?</span><i></i></button>
+            <div class="qa__a"><div><p>Entre 9h e 11h e depois das 20h30 o salão é mais tranquilo. Mesmo nos horários de pico (6h–8h e 18h–20h) mantemos a proporção de 1 professor para 25 alunos.</p></div></div>
+          </div>
+          <div class="qa">
+            <button class="qa__q" aria-expanded="false"><span>As aulas coletivas estão incluídas?</span><i></i></button>
+            <div class="qa__a"><div><p>Nos planos Pro e Black, sim, todas. No Start, o foco é a musculação livre e você pode fazer upgrade a qualquer momento.</p></div></div>
+          </div>
+          <div class="qa">
+            <button class="qa__q" aria-expanded="false"><span>Tenho lesão ou restrição médica. Posso treinar?</span><i></i></button>
+            <div class="qa__a"><div><p>Pode. Na avaliação você nos conta o histórico e adaptamos o treino. Em casos específicos, pedimos um atestado ou liberação do seu médico.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="final">
+      <div class="final__media">
+        <img src="https://images.unsplash.com/photo-1558611848-73f7eb4001a1?auto=format&fit=crop&w=2000&q=70" alt="" loading="lazy" data-parallax="0.08" />
+      </div>
+      <div class="final__shade"></div>
+      <div class="container final__inner">
+        <p class="eyebrow" data-reveal>Segunda-feira começa hoje</p>
+        <h2 class="final__title" data-reveal>Seu corpo<br />não vai <span class="accent">esperar.</span></h2>
+        <p class="final__lead" data-reveal>Pegue sua semana grátis, conheça a casa e decida depois. O único risco é continuar adiando.</p>
+        <a href="#contato" class="btn btn--lg" data-magnetic data-reveal>
+          <span>Quero treinar de graça</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+    </section>
+  </main>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <a href="#topo" class="logo"><span class="logo__mark"></span>FORJA<small>Academia</small></a>
+        <nav class="footer__nav" aria-label="Rodapé">
+          <a href="#diferenciais">Diferenciais</a>
+          <a href="#aulas">Aulas</a>
+          <a href="#metodo">Método</a>
+          <a href="#planos">Planos</a>
+          <a href="#contato">Contato</a>
+        </nav>
+        <div class="footer__social">
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".6"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24"><rect x="2.5" y="5.5" width="19" height="13" rx="4"/><path d="m10 9.5 5 2.5-5 2.5z"/></svg></a>
+          <a href="https://wa.me/5551999990000" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M4 20l1.2-4A8 8 0 1 1 8 18.8z"/><path d="M9 9c.5 2.5 2.5 4.5 5 5l1-1.5-2-1-.8.7a4 4 0 0 1-1.6-1.6l.7-.8-1-2z"/></svg></a>
+        </div>
+      </div>
+      <div class="footer__word" aria-hidden="true">FORJA</div>
+      <div class="footer__bottom">
+        <p>© <span id="year"></span> FORJA Academia. Todos os direitos reservados.</p>
+        <p>Rua dos Andradas · Porto Alegre · CREF 000000-G/RS</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <div class="sticky-cta" id="stickyCta">
+    <a href="#contato" class="btn btn--block"><span>Quero 7 dias grátis</span>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+  </div>
+
+
+  <button class="to-top" id="toTop" aria-label="Voltar ao topo">
+    <svg class="to-top__ring" viewBox="0 0 48 48" aria-hidden="true">
+      <circle cx="24" cy="24" r="22" class="to-top__track" />
+      <circle cx="24" cy="24" r="22" class="to-top__bar" id="toTopBar" />
+    </svg>
+    <svg class="to-top__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
